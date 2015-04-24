@@ -1,0 +1,13 @@
+.mobileLink {
+     display: none;   
+}
+
+@media (max-width: 750px){
+    .mobileLink {
+         display: inherit;   
+    }
+    
+    .noteBody {
+         display: none;   
+    }
+}
