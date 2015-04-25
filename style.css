@@ -1,12 +1,18 @@
+a {
+     color: black;   
+}
+
 .noteBody {
     font-family: "Lora";
     font-weight: 400;
     padding-left: 40px;
+    padding-bottom: 500px;
 }
 
 .noteHeader {
     font-family: "Lato";
     font-weight: 400;
+    padding-bottom: 40px;
 }
 
 #highlight {
@@ -36,16 +42,20 @@
       50% { opacity: 0.0; }
       100% { opacity: 1.0; }
     }
-    .blink {
-      animation: blink 1.5s step-start 0s infinite;
-      -webkit-animation: blink 1.5s step-start 0s infinite;
+
+.blink {
+    font-family: "Lato";
+    animation: blink 1.3s step-start 0s infinite;
+    -webkit-animation: blink 1.3s step-start 0s infinite;
+    font-size: 1.1em;
+    font-weight: 100;
     }
 
 .mobileLink {
      display: none;   
 }
 
-@media (max-width: 750px){
+@media (max-width: 900px){
     .mobileLink {
          display: inherit;   
     }
