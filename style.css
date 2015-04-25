@@ -3,9 +3,19 @@ a {
 }
 
 .statement {
-     opacity: 0.7;  
-    padding: 200px 60px;
-    padding-bottom: 400px;
+    opacity: 0.7;  
+    padding: 100px 60px;
+    padding-bottom: 100vh;
+}
+
+.center {
+    position: absolute;
+    width: 90px;
+    left: 50%;
+    margin: 0 0 0 -45px;
+    font-family: sans-serif;
+    text-align: center;
+    
 }
 
 .arrow {
@@ -21,13 +31,13 @@ a {
     font-family: "Lora";
     font-weight: 400;
     padding-left: 40px;
-    padding-bottom: 500px;
+    padding-bottom: 50vh;
 }
 
 .noteHeader {
     font-family: "Lato";
     font-weight: 400;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 #highlight {
@@ -67,15 +77,23 @@ a {
     }
 
 .mobileLink {
-     display: none;   
+     display: none;
+    padding-bottom: 50vh;
 }
 
 @media (max-width: 900px){
     .mobileLink {
-         display: inherit;   
+        display: inherit;
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    .noteHeader {
+         text-align: center;   
     }
     
     .noteBody {
-         display: none;   
+         display: none;
+        
     }
 }
