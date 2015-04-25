@@ -1,11 +1,12 @@
 .noteBody {
     font-family: "Lora";
-    font-weight: 700;
+    font-weight: 400;
+    padding-left: 40px;
 }
 
 .noteHeader {
     font-family: "Lato";
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #highlight {
@@ -24,6 +25,21 @@
 .subTitle {
     font-size: 70%;
 }
+
+ @keyframes blink {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    }
+    @-webkit-keyframes blink {
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    }
+    .blink {
+      animation: blink 1.5s step-start 0s infinite;
+      -webkit-animation: blink 1.5s step-start 0s infinite;
+    }
 
 .mobileLink {
      display: none;   
