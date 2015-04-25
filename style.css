@@ -1,3 +1,30 @@
+.noteBody {
+    font-family: "Lora";
+    font-weight: 700;
+}
+
+.noteHeader {
+    font-family: "Lato";
+    font-weight: 100;
+}
+
+#highlight {
+    background-color: #388BFF;
+    color: white;
+}
+
+.title {
+    font-size: 5em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    line-height: 40px;
+}
+
+.subTitle {
+    font-size: 70%;
+}
+
 .mobileLink {
      display: none;   
 }
