@@ -4,8 +4,12 @@ a {
 
 .statement {
     opacity: 0.7;  
-    padding: 100px 60px;
-    padding-bottom: 100vh;
+    padding: 50px 60px;
+}
+
+.link {
+     text-decoration: underline;  
+    cursor: pointer;
 }
 
 .center {
@@ -22,7 +26,7 @@ a {
     width: 50px;
     height: 50px;
     left: 50%;
-    margin: 0 0 0 -50px;
+    margin: 0 0 0 -25px;
     padding-top: 20px;
 }
 
@@ -30,13 +34,13 @@ a {
     font-family: "Lora";
     font-weight: 400;
     padding-left: 40px;
-    padding-bottom: 50vh;
 }
 
 .noteHeader {
     font-family: "Lato";
     font-weight: 400;
     padding-bottom: 0px;
+    padding-top: 75vh;
 }
 
 #highlight {
@@ -54,6 +58,10 @@ a {
 
 .subTitle {
     font-size: 70%;
+}
+
+.lastPost {
+     padding-bottom: 50vh;   
 }
 
  @keyframes blink {  
